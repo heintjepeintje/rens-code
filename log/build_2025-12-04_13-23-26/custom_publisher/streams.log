@@ -1,0 +1,4 @@
+[0.009s] Invoking command in '/home/hein/dev/ros-test/build/custom_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_publisher -- -j16 -l16
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_publisher_node.dir/src/publisher.cpp.o[0m
+[2.368s] [100%] [32m[1mLinking CXX executable custom_publisher_node[0m
+[2.489s] [100%] Built target custom_publisher_node

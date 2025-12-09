@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/test-package-node.dir/src/test-package-node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test-package-node[0m
+[100%] Built target test-package-node
+-- Install configuration: ""
+-- Installing: /home/hein/dev/ros-test/install/test-package/lib/test-package/test-package-node
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/ament_index/resource_index/package_run_dependencies/test-package
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/ament_index/resource_index/parent_prefix_path/test-package
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/ament_prefix_path.sh
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/ament_prefix_path.dsv
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/path.sh
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/path.dsv
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.bash
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.sh
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.zsh
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.dsv
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/package.dsv
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/ament_index/resource_index/packages/test-package
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/cmake/test-packageConfig.cmake
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/cmake/test-packageConfig-version.cmake
+-- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/package.xml

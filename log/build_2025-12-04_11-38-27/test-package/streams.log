@@ -1,0 +1,10 @@
+[0.008s] Invoking command in '/home/hein/dev/ros-test/build/test-package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/test-package -- -j16 -l16
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/test-package-node.dir/src/test-package-node.cpp.o[0m
+[0.062s] [01m[K/home/hein/dev/ros-test/test-package/src/test-package-node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/node.hpp: No such file or directory
+[0.062s]     1 | #include [01;31m[K<rclcpp/node.hpp>[m[K
+[0.062s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.062s] compilation terminated.
+[0.062s] gmake[2]: *** [CMakeFiles/test-package-node.dir/build.make:76: CMakeFiles/test-package-node.dir/src/test-package-node.cpp.o] Error 1
+[0.062s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test-package-node.dir/all] Error 2
+[0.062s] gmake: *** [Makefile:146: all] Error 2
+[0.064s] Invoked command in '/home/hein/dev/ros-test/build/test-package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/test-package -- -j16 -l16

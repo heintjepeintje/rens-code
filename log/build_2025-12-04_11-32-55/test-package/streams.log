@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/hein/dev/ros-test/build/test-package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hein/dev/ros-test/test-package -DCMAKE_INSTALL_PREFIX=/home/hein/dev/ros-test/install/test-package
+[0.043s] -- The C compiler identification is GNU 13.3.0
+[0.080s] -- The CXX compiler identification is GNU 13.3.0
+[0.091s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.240s] -- Detecting CXX compile features
+[0.240s] -- Detecting CXX compile features - done
+[0.242s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.400s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.466s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.466s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hein/dev/ros-test/test-package/include>
+[0.466s] -- Configured cppcheck exclude dirs and/or files: 
+[0.466s] -- Added test 'lint_cmake' to check CMake code style
+[0.467s] -- Added test 'uncrustify' to check C / C++ code style
+[0.467s] -- Configured uncrustify additional arguments: 
+[0.467s] -- Added test 'xmllint' to check XML markup files
+[0.468s] -- Configuring done (0.5s)
+[0.470s] -- Generating done (0.0s)
+[0.471s] -- Build files have been written to: /home/hein/dev/ros-test/build/test-package

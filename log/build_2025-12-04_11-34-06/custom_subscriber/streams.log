@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/hein/dev/ros-test/build/custom_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_subscriber -- -j16 -l16
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.197s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.253s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.253s] -- Configured cppcheck include dirs: /home/hein/dev/ros-test/packages/custom_subscriber/src
+[0.253s] -- Configured cppcheck exclude dirs and/or files: 
+[0.253s] -- Added test 'lint_cmake' to check CMake code style
+[0.254s] -- Added test 'uncrustify' to check C / C++ code style
+[0.254s] -- Configured uncrustify additional arguments: 
+[0.254s] -- Added test 'xmllint' to check XML markup files
+[0.254s] -- Configuring done (0.2s)
+[0.255s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.255s]   Cannot find source file:
+[0.255s] 
+[0.255s]     src/subscriber.cpp
+[0.255s] 
+[0.255s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.255s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.255s]   .f95 .f03 .hip .ispc
+[0.255s] 
+[0.255s] [0m
+[0.255s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.255s]   No SOURCES given to target: custom_publisher_node
+[0.255s] 
+[0.255s] [0m
+[0.255s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.256s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.258s] Invoked command in '/home/hein/dev/ros-test/build/custom_subscriber' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_subscriber -- -j16 -l16

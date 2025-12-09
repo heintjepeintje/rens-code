@@ -1,0 +1,22 @@
+[0.006s] Invoking command in '/home/hein/dev/ros-test/build/test-package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/test-package -- -j16 -l16
+[0.039s] [100%] Built target test-package-node
+[0.046s] Invoked command in '/home/hein/dev/ros-test/build/test-package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/test-package -- -j16 -l16
+[0.051s] Invoking command in '/home/hein/dev/ros-test/build/test-package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/ros-test/build/test-package
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/lib/test-package/test-package-node
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/ament_index/resource_index/package_run_dependencies/test-package
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/ament_index/resource_index/parent_prefix_path/test-package
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/path.sh
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/environment/path.dsv
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.bash
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.sh
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.zsh
+[0.058s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/local_setup.dsv
+[0.059s] -- Installing: /home/hein/dev/ros-test/install/test-package/share/test-package/package.dsv
+[0.059s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/ament_index/resource_index/packages/test-package
+[0.059s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/cmake/test-packageConfig.cmake
+[0.059s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/cmake/test-packageConfig-version.cmake
+[0.059s] -- Up-to-date: /home/hein/dev/ros-test/install/test-package/share/test-package/package.xml
+[0.059s] Invoked command in '/home/hein/dev/ros-test/build/test-package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/ros-test/build/test-package

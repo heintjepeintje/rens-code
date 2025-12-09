@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/hein/dev/ros-test/build/custom_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_publisher -- -j16 -l16
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_publisher_node.dir/src/publisher.cpp.o[0m
+[0.057s] [01m[K/home/hein/dev/ros-test/packages/custom_publisher/src/publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/node.hpp: No such file or directory
+[0.057s]     1 | #include [01;31m[K<rclcpp/node.hpp>[m[K
+[0.057s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.057s] compilation terminated.
+[0.057s] gmake[2]: *** [CMakeFiles/custom_publisher_node.dir/build.make:76: CMakeFiles/custom_publisher_node.dir/src/publisher.cpp.o] Error 1
+[0.057s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/custom_publisher_node.dir/all] Error 2
+[0.058s] gmake: *** [Makefile:146: all] Error 2
+[0.059s] Invoked command in '/home/hein/dev/ros-test/build/custom_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_publisher -- -j16 -l16

@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/hein/dev/ros-test/build/custom_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_publisher -- -j16 -l16
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_publisher_node.dir/src/publisher.cpp.o[0m
+[2.272s] [100%] [32m[1mLinking CXX executable custom_publisher_node[0m
+[2.365s] [100%] Built target custom_publisher_node
+[2.373s] Invoked command in '/home/hein/dev/ros-test/build/custom_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_publisher -- -j16 -l16
+[2.379s] Invoking command in '/home/hein/dev/ros-test/build/custom_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/ros-test/build/custom_publisher
+[2.383s] -- Install configuration: ""
+[2.383s] -- Installing: /home/hein/dev/ros-test/install/custom_publisher/lib/custom_publisher/custom_publisher_node
+[2.384s] -- Set non-toolchain portion of runtime path of "/home/hein/dev/ros-test/install/custom_publisher/lib/custom_publisher/custom_publisher_node" to ""
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/ament_index/resource_index/package_run_dependencies/custom_publisher
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/ament_index/resource_index/parent_prefix_path/custom_publisher
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/environment/ament_prefix_path.sh
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/environment/ament_prefix_path.dsv
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/environment/path.sh
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/environment/path.dsv
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/local_setup.bash
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/local_setup.sh
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/local_setup.zsh
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/local_setup.dsv
+[2.384s] -- Installing: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/package.dsv
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/ament_index/resource_index/packages/custom_publisher
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/cmake/custom_publisherConfig.cmake
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/cmake/custom_publisherConfig-version.cmake
+[2.384s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_publisher/share/custom_publisher/package.xml
+[2.385s] Invoked command in '/home/hein/dev/ros-test/build/custom_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/ros-test/build/custom_publisher

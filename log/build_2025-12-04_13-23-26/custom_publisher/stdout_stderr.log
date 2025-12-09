@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/custom_publisher_node.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable custom_publisher_node[0m
+[100%] Built target custom_publisher_node

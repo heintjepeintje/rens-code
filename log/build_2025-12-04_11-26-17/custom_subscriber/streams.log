@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/hein/dev/ros-test/build/custom_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_subscriber -- -j16 -l16
+[0.032s] Invoked command in '/home/hein/dev/ros-test/build/custom_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/ros-test/build/custom_subscriber -- -j16 -l16
+[0.042s] Invoking command in '/home/hein/dev/ros-test/build/custom_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/ros-test/build/custom_subscriber
+[0.049s] -- Install configuration: ""
+[0.049s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/ament_index/resource_index/package_run_dependencies/custom_subscriber
+[0.049s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/ament_index/resource_index/parent_prefix_path/custom_subscriber
+[0.049s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/environment/ament_prefix_path.dsv
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/environment/path.sh
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/environment/path.dsv
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/local_setup.bash
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/local_setup.sh
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/local_setup.zsh
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/local_setup.dsv
+[0.050s] -- Installing: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/package.dsv
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/ament_index/resource_index/packages/custom_subscriber
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/cmake/custom_subscriberConfig.cmake
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/cmake/custom_subscriberConfig-version.cmake
+[0.050s] -- Up-to-date: /home/hein/dev/ros-test/install/custom_subscriber/share/custom_subscriber/package.xml
+[0.052s] Invoked command in '/home/hein/dev/ros-test/build/custom_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/ros-test/build/custom_subscriber

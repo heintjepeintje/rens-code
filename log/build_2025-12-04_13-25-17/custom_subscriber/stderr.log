@@ -1,0 +1,20 @@
+[01m[K/home/hein/dev/ros-test/packages/custom_subscriber/src/subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/hein/dev/ros-test/packages/custom_subscriber/src/subscriber.cpp:18:160:[m[K [01;31m[Kerror: [m[K‘[01m[Kref[m[K’ does not name a type
+   18 | tring_subscription::SharedPtr subscription = node->create_subscription<std_msgs::msg::String>(std::string("custom_topic"), subscription_qos, [](const [01;31m[Kref[m[K<std_msgs::msg::String> &msg) {
+      |                                                                                                                                                       [01;31m[K^~~[m[K
+
+[01m[K/home/hein/dev/ros-test/packages/custom_subscriber/src/subscriber.cpp:[m[K In lambda function:
+[01m[K/home/hein/dev/ros-test/packages/custom_subscriber/src/subscriber.cpp:20:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   20 |         })[01;31m[K;[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/hein/dev/ros-test/packages/custom_subscriber/src/subscriber.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/hein/dev/ros-test/packages/custom_subscriber/src/subscriber.cpp:20:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   20 |         })[01;31m[K;[m[K
+      |           [01;31m[K^[m[K
+      |           [32m[K)[m[K
+[01m[K/home/hein/dev/ros-test/packages/custom_subscriber/src/subscriber.cpp:18:103:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   18 |         string_subscription::SharedPtr subscription = node->create_subscription<std_msgs::msg::String>[01;36m[K([m[Kstd::string("custom_topic"), subscription_qos, [](const ref<std_msgs::msg::String> &msg) {
+      |                                                                                                       [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/custom_subscriber_node.dir/build.make:76: CMakeFiles/custom_subscriber_node.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/custom_subscriber_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
